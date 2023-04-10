@@ -138,7 +138,7 @@ public:
 
 int main(){
     vector<Alumno> vec;
-    FixedRecord rec("../pruebatexto.txt");
+    FixedRecord rec("../datos1.txt");
     vec = rec.load();
 
     for(auto i : vec){
